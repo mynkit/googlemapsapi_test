@@ -25,3 +25,4 @@ if __name__ == '__main__':
     address = u'東京千代田区丸の内1-11-1'
     location = get_location(address, google_maps_api_key)
     print(location)
+    # {'lat': 35.6780328, 'lng': 139.7669527, 'formatted_address': '日本、〒100-0005 東京都千代田区丸の内１丁目１１−1号'}
